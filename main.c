@@ -7,8 +7,8 @@ void setMultiplicationIndexesLowerDistanceToTarget(const int array[], int target
 #define SIZE_OF_ARRAY 7
 
 int main() {
-    int numbers_to_check[SIZE_OF_ARRAY] = {-1,-2,-3,-4,-5,-6,-7}; // 2,3,4,6,8,12
-    int target = -30;
+    int numbers_to_check[SIZE_OF_ARRAY] = {-1,-2,-3,-4,-5,-6,-7}; 
+    int target = -3;
     int first_index, second_index;
 
     setMultiplicationIndexesLowerDistanceToTarget(numbers_to_check, target, SIZE_OF_ARRAY, &first_index, &second_index);
