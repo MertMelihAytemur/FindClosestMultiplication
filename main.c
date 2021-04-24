@@ -10,7 +10,7 @@ int main() {
     int target = 30;
     int first_index, second_index;
 
-    getMultiplicationIndexesLowerDistanceToTarget(numbers_to_check, target, SIZE_OF_ARRAY, &first_index, &second_index);
+    setMultiplicationIndexesLowerDistanceToTarget(numbers_to_check, target, SIZE_OF_ARRAY, &first_index, &second_index);
     printf("[%d,%d]", first_index, second_index);
 }
 
