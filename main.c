@@ -20,10 +20,10 @@ void getMultiplicationIndexesLowerDistanceToTarget(
         int array_size,
         int *first_index,
         int *second_index) {
-    int multiplication, currentMultiplication = 0,a;
+    int multiplication, currentMultiplication = 0;
     for (int i = 0; i < array_size; i++) {
         for (int j = i + 1; j < array_size; j++) {
-            multiplication = array[i] + array[j];
+            multiplication = array[i] * array[j];
             if (target > 0) {
                 if (abs(target - multiplication) < abs(target - currentMultiplication)) {
                     *first_index = i;
