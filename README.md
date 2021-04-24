@@ -2,4 +2,4 @@
 FindClosestMultiplication Project
 
 Suppose you have an integer array and an integer target. 
-This program finds out any two numbers in the sequence the multiplication of which is equal to or closest to the target.
+This program finds out any two numbers in the array the multiplication of which is equal to or closest to the target.
