@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void getMultiplicationIndexesLowerDistanceToTarget(const int array[], int target, int array_size, int *first_index, int *second_index);
+void setMultiplicationIndexesLowerDistanceToTarget(const int array[], int target, int array_size, int *first_index, int *second_index);
 
 #define SIZE_OF_ARRAY 7
 
