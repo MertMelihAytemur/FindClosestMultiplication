@@ -14,7 +14,7 @@ int main() {
     printf("[%d,%d]", first_index, second_index);
 }
 
-void getMultiplicationIndexesLowerDistanceToTarget(
+void setMultiplicationIndexesLowerDistanceToTarget(
         const int array[],
         int target,
         int array_size,
